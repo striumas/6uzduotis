@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h2 {
+    margin: 0 0 30px 0;
+    font-weight: lighter;
+
+}
+
+.back {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.form {
+    background-color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: grey;
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 50px 50px;
+    width: 800px;
+}
+
+.input {
+    float: left;
+    margin: 5px 5px 5px 0;
+    width: 49%;
+    box-shadow: 1px 1px 1px lightgray;
+}
+
+.cs {
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.mes {
+    padding: 7px 7px 110px 7px;
+    float: right;
+    margin: 5px 0 5px 5px;
+}
+
+.btn {
+    width: 100%;
+    background-color: firebrick;
+    color: white;
+    margin: 15px 0;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
